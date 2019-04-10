@@ -17,11 +17,11 @@ app.post('/login',(req,res)=>{
 
     if (user=='admin' && pass==1234)
     {
-        res.send("success");
+        res.send(JSON.stringify({status:"success"}));
     }
     else
     {
-        res.send("failed");
+        res.send(JSON.stringify({status:"failed"}));
     }
 });
 
