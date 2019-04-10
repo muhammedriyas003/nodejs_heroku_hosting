@@ -25,6 +25,16 @@ app.post('/login',(req,res)=>{
     }
 });
 
+app.post('/register',(req,res)=>{
+
+    var name=req.body.name1;
+    var adno=req.body.adno1;
+    var user=req.body.username;
+    var pass=req.body.password;
+
+    res.send(name+"<br>"+adno+"<br>"+user+"<br>"+pass)
+});
+
 app.get('/',(req,res)=>{
 
     res.render('home',{name:'Riyaz'});
