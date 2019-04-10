@@ -23,7 +23,7 @@ app.post('/login',(req,res)=>{
     {
         res.send("failed");
     }
-})
+});
 
 app.get('/',(req,res)=>{
 
