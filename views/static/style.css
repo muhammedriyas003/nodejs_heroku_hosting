@@ -1,0 +1,89 @@
+
+#card1
+{
+    text-align: center;
+    font-style: bold;
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    color: white;
+}
+#nv
+{
+    
+    font-family:'times new roman';
+    font-style: bold;
+    color: white;
+}
+#aa
+{
+    color: white;
+}
+#lar
+{
+    background-color:darkolivegreen;
+    text-align: center;
+    font-family: 'Courier New';
+    color: white;
+    font-size: 20px;
+}
+#rig
+{
+    text-align: left;
+}
+#lef
+{
+    text-align: right;
+}
+
+#wel
+{
+  
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color:black;
+    font-size: 40px;
+    font-style:italic;
+}
+
+.responsive
+{
+    width: 100%;
+    height: auto;
+}
+#mov1
+{
+    text-align: left;
+    color: black;
+    font-style: bold;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+    #d
+{
+    text-align: center;
+    font-style: bold;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+#t
+{
+    text-align: center;
+    font-style: bold;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+body
+{
+background-image: url('bg2.jpg');
+}
+#mo
+{
+    background-image: url('bg0.jpg'); 
+}
+
+
+
+
+
+
