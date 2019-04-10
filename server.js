@@ -52,7 +52,7 @@ app.post('/getdata',(req,res)=>{
      res.send(name+"<br>"+address+"<br>"+mobile+"<br>");
 
 });
-app.listen(3003,()=>{
+app.listen(process.env.PORT || 3003,()=>{
     console.log('app running successfully');
 });
 
